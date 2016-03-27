@@ -122,3 +122,30 @@ code {
   border-radius: 100%;
   width: 100%;
 }
+
+.social-icons {
+  display: inline;
+}
+
+.social-icons a {
+  margin-left: 10px;
+  border-style: none;
+
+}
+.social-icons a:focus{
+   outline: none;
+}
+
+.social-icons i:hover{
+  color: #49bf9d;
+  border-style: none;
+
+
+}
+.social-icons i:active{
+  color: #49bf9d;
+  border-style: none;
+}
+.social-icons i:focus{
+   outline: none;
+}
