@@ -9,13 +9,13 @@
 
 
 
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl | prepend: site.url }}">
 
     <!--[if lte IE 8]>
         <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
     <![endif]-->
     <!--[if gt IE 8]><!-->
-        <link rel="stylesheet" href="{{ "/css/side-menu.css" | prepend: site.baseurl}}">
+        <link rel="stylesheet" href="{{ "/css/side-menu.css" | prepend: site.baseurl | prepend: site.url }}">
     <!--<![endif]-->
     <!-- Font awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
