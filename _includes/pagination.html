@@ -1,0 +1,44 @@
+<!-- Pagination links -->
+<!--<div class="pagination">
+  {% if paginator.previous_page %}
+  <a class="pure-button" href="{{ paginator.previous_page_path }}">
+    <i class="fa fa-arrow-circle-left"></i>
+    Prev
+ </a>
+  {% else %}
+    <span class="previous"><button class="pure-button pure-button-disabled"><i class="fa fa-arrow-circle-left"></i> Prev </button></span>
+  {% endif %}
+  <span class="page_number ">page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a class="pure-button" href="{{ paginator.next_page_path }}"><i class="fa fa-arrow-circle-right"></i> Next </a>
+  {% else %}
+    <span class="next "><button class="pure-button pure-button-disabled"><i class="fa fa-arrow-circle-right"></i> Next </button></span>
+  {% endif %}
+</div> -->
+
+
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a class="pure-button" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">   <i class="fa fa-arrow-circle-left"></i> Prev</a>
+  {% else %}
+    <span><button class="pure-button pure-button-disabled"><i class="fa fa-arrow-circle-left"></i> Prev </button></span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <em>{{ page }}</em>
+    {% elsif page == 1 %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+  
+  {% if paginator.next_page %}
+    <a class="pure-button" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"> Next <i class="fa fa-arrow-circle-right"></i> </a>
+  {% else %}
+      <span><button class="pure-button pure-button-disabled"> Next <i class="fa fa-arrow-circle-right"></i></button></span>
+  {% endif %}
+</div>
+{% endif %}

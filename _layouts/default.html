@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    <div id="layout">
+                <!-- Menu toggle -->
+             <a href="#menu" id="menuLink" class="menu-link">
+                 <!-- Hamburger icon -->
+                 <span></span>
+             </a>
+             <!-- Menu toggle end -->
+
+             {% include menu.html %}
+
+
+              <div id="main">
+               <div class="content">
+                 {{ content }}
+               </div>
+              </div>
+
+
+
+    </div>
+
+
+      {% include footer.html %}
+
+
+
+  </body>
+
+</html>
