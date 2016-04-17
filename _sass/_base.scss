@@ -95,10 +95,14 @@ code {
 
 
 .profile-image{
-   padding: 1px;
-  display:inline-block;
-  width: 198px;
-  height:226px;
+  margin-left: 5px;
+   display: list-item;
+   width: 244px;
+   height:270px;
+}
+.profile-image > img {
+  width: inherit;
+  height: inherit;
 }
 
 .button-rss {

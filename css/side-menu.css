@@ -33,12 +33,12 @@ This is the parent `<div>` that contains the menu and the content area.
 }
 
 #layout.active #menu {
-    left: 200px;
-    width: 200px;
+    left: 250px;
+    width: 250px;
 }
 
 #layout.active .menu-link {
-    left: 200px;
+    left: 250px;
 }
 
 
@@ -88,9 +88,9 @@ appears on the left side of the page.
 */
 
 #menu {
-    margin-left: -200px;
+    margin-left: -250px;
     /* "#menu" width */
-    width: 200px;
+    width: 250px;
     position: fixed;
     top: 0;
     left: 0;
@@ -151,7 +151,7 @@ appears on the left side of the page.
 
 #menu .pure-menu-selected,
 #menu .pure-menu-heading {
-    background: #1f8dd6;
+    background: #2952a3;
 }
 
 
@@ -242,28 +242,30 @@ small screens.
 /*
 Hides the menu at `48em`, but modify this based on your app's needs.
 */
-
 @media (min-width: 48em) {
+
     .header,
     .content {
         padding-left: 2em;
         padding-right: 2em;
     }
+
     #layout {
-        padding-left: 200px;
-        /* left col width "#menu" */
+        padding-left: 250px; /* left col width "#menu" */
         left: 0;
     }
     #menu {
-        left: 200px;
+        left: 250px;
     }
+
     .menu-link {
         position: fixed;
-        left: 200px;
+        left: 250px;
         display: none;
     }
+
     #layout.active .menu-link {
-        left: 200px;
+        left: 250px;
     }
 }
 
@@ -276,6 +278,6 @@ Hides the menu at `48em`, but modify this based on your app's needs.
     */
     #layout.active {
         position: relative;
-        left: 200px;
+        left: 250px;
     }
 }

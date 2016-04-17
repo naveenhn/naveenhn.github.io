@@ -234,21 +234,21 @@ Hides the menu at `48em`, but modify this based on your app's needs.
 }
 
 #layout {
-    padding-left: 150px;
+    padding-left: 250px;
     /* left col width "#menu" */
     left: 0;
 }
 
 #menu {
-    left: 150px;
+    left: 250px;
 }
 
 .menu-link {
     position: fixed;
-    left: 150px;
+    left: 250px;
     display: none;
 }
 
 #layout.active .menu-link {
-    left: 150px;
+    left: 250px;
 }

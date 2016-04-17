@@ -4,7 +4,7 @@ title:  "First post using Jekyll!"
 published: true
 date:   2016-03-27 12:00:00
 categories: jekyll blog
-tags: jekyll blog
+tags: jekyll blog 
 ---
 My first post is about Jekyll itself. I will not go about installation and other nuances, you will find a ton of information, just Google it. However I would recommend the following sites a must for anyone starting with Jekyll.
 

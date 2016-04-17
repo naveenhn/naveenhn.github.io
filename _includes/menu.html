@@ -2,21 +2,19 @@
       <div class="pure-menu">
           <a class="pure-menu-heading" href="#">{{site.title}}</a>
 
-        <span  class="profile-image" > <img alt="It's Me" src="{{ "/assets/img/me.jpg" | prepend: site.baseurl}}"/> </span>
-<br/>
+        <span  class="profile-image" > <img alt="It's Me" src="{{ "/assets/img/me.jpg" | prepend: site.baseurl}}" /> </span>
           <ul class="pure-menu-list">
             {% for item in site.data.nav.main %}
                 <li class="pure-menu-item"><a href="{{ item.url }}" class="pure-menu-link">{{ item.text }}</a></li>
             {% endfor %}
 
-            <div style="margin-top: 30px">
+            <div style="margin-top: 30px; margin-left: 20px;">
             <a href="https://in.linkedin.com/pub/naveen-kumar-h-n/6/b58/b61" target="_blank">
-
-            <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" border="0" alt="View Naveen Kumar H N's profile on LinkedIn">
+            <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png" width="180" height="33" border="0" alt="View Naveen Kumar H N's profile on LinkedIn">
 
             </a>
           </div>
-          <div style="margin-top : 20px;">
+          <div style="margin-top : 20px; margin-left : 20px;">
 
 
           <span class="social-icons">
