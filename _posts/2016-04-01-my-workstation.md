@@ -3,8 +3,8 @@ layout: post
 title:  "My work station"
 published: true
 date:   2016-04-01 12:00:00
-categories: linux, fedora, laptop
-tags: fedora, linux
+categories: linux fedora
+tags: fedora linux
 ---
 I belong to that generation which saw the introduction of desktop computers to common man in India. Every house was trying to get a personal computer. For me it started with Internet cafes and then buying my own assembled desktop. I bought a powerful system which surprisingly  ran till recently (12+years). Though the primary usage was supposed to be academical, like any other student of that generation I was more interested with computer games, watching movies etc. It was a common practice for engineering students to share games, MP3s, movies etc. We always wanted to meddle with the desktop, be it installing new OS or upgrading it with more memory or swapping out hard disks to transfer movies, music etc.
 
