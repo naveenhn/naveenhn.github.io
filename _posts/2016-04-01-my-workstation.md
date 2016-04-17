@@ -17,7 +17,7 @@ I belong to that generation which saw the introduction of desktop computers to c
  2. [darktable](http://www.darktable.org/) - Photo workflow and raw developer
  3. [Gnome Tweak Tool](https://wiki.gnome.org/action/show/Apps/GnomeTweakTool?action=show&redirect=GnomeTweakTool)
  4. [VLC Player](http://www.videolan.org/vlc/index.html) - video player
- 5. other tool
+ 5. other tools
 
 ### My current desktop theme and icons
  * GTK+ - [Arc theme](https://github.com/horst3180/arc-theme)
