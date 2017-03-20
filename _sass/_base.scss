@@ -117,14 +117,17 @@ code {
 .avatar{
   margin: 0 0 1em 0;
   width: 6.25em;
-  border-radius: 100%;
+  //margin: 10px 10px 10px 10px;
+
 }
 .avatar:before{
   display: none;
 }
 .avatar img{
   border-radius: 100%;
-  width: 100%;
+  width: 50%;
+margin-left: 20%;
+
 }
 
 .social-icons {
@@ -132,7 +135,7 @@ code {
 }
 
 .social-icons a {
-  margin-left: 10px;
+  margin-left: 20px;
   border-style: none;
 
 }

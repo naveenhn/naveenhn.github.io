@@ -1,24 +1,23 @@
 <div id="menu">
       <div class="pure-menu">
-          <a class="pure-menu-heading" href="#">{{site.title}}</a>
+          <a class="pure-menu-heading" href="#" style="margin-bottom: 30px;"></a>
 
-        <span  class="profile-image" > <img alt="It's Me" src="{{ "/assets/img/me.jpg" | prepend: site.baseurl}}" /> </span>
-          <ul class="pure-menu-list">
+        <span  class="avatar" > <img alt="Naveen" src="{{ "/assets/img/me.jpg" | prepend: site.baseurl}}" /> </span>
+          <ul class="pure-menu-list" style="margin-top: 25px; border: transparent;">
             {% for item in site.data.nav.main %}
-                <li class="pure-menu-item"><a href="{{ item.url }}" class="pure-menu-link">{{ item.text }}</a></li>
+                <li class="pure-menu-item"><a href="{{ item.url }}" class="pure-menu-link" style="padding-left: 40px;">{{ item.text }}</a></li>
             {% endfor %}
 
-            <div style="margin-top: 30px; margin-left: 20px;">
+          <!--  <div style="margin-top: 30px; margin-left: 20px;">
             <a href="https://in.linkedin.com/pub/naveen-kumar-h-n/6/b58/b61" target="_blank">
             <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png" width="180" height="33" border="0" alt="View Naveen Kumar H N's profile on LinkedIn">
 
             </a>
-          </div>
-          <div style="margin-top : 20px; margin-left : 20px;">
-
-
+          </div> -->
+          <div style="margin-top : 40px; margin-left : 20px;">
           <span class="social-icons">
              <a href="https://twitter.com/naveenhn" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>
+             <a href="https://in.linkedin.com/pub/naveen-kumar-h-n/6/b58/b61" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a>
              <a href="https://www.facebook.com/naveenkumarhn" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
              <a href="https://github.com/naveenhn" target="_blank" ><i class="fa fa-github fa-lg"></i></a>
              <a href="mailto:naveen.hn.kumar@gmail.com?Subject=Hello" target="_top"><i class="fa fa-envelope-o fa-lg"></i></a>
