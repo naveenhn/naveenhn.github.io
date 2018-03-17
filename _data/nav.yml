@@ -1,4 +1,4 @@
 main:
     - { url: '/', text: 'Home' }
     - { url: '/about', text: 'About' }
-    - { url: 'https://github.com/naveenhn', text: 'Projects' }
+    - { url: 'https://github.com/naveenhn', text: 'Workspace' }

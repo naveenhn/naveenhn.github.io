@@ -22,7 +22,10 @@ baseurl: "" # does not include hostname
 #include _pages folder
 include: ['_pages']
 
-gems: [jekyll-paginate]
+
+# Plugins
+whitelist: []
+plugins:   [jekyll-paginate]
 
 # Markdown Processors
 kramdown:

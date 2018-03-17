@@ -1,9 +1,9 @@
 <div id="menu">
       <div class="pure-menu">
-          <a class="pure-menu-heading" href="#" style="margin-bottom: 30px;"></a>
+            <!-- <a class="pure-menu-heading" href="#" style="margin-bottom: 30px;"></a>
 
-        <span  class="avatar" > <img alt="Naveen" src="{{ "/assets/img/me.jpg" | prepend: site.baseurl}}" /> </span>
-          <ul class="pure-menu-list" style="margin-top: 25px; border: transparent;">
+     <span  class="avatar" > <img alt="Naveen" src="{{ "/assets/img/me.jpg" | prepend: site.baseurl}}" /> </span> -->
+          <ul class="pure-menu-list" style="margin-top: 50px; border: transparent;">
             {% for item in site.data.nav.main %}
                 <li class="pure-menu-item"><a href="{{ item.url }}" class="pure-menu-link" style="padding-left: 40px;">{{ item.text }}</a></li>
             {% endfor %}
@@ -41,4 +41,17 @@
               <li class="pure-menu-item"><a href="#" class="pure-menu-link">Contact</a></li> -->
           </ul>
       </div>
+      <div class="menu-footer" style="position: absolute; left: 0; bottom: 0; height: 100px; text-align: center;">
+
+        <small  style="padding-left: 40px;" >
+          © 2018 Naveen Kumar H N
+
+        </small>
+          <br/>
+        <small style="padding-left: 40px;" >
+
+          Powered by <a href="http://jekyllrb.com">Jekyll</a> and <a href="https://purecss.io/">Pure CSS</a>.
+        </small>
+      </div>
+
   </div>
