@@ -3,8 +3,8 @@ title: Naveen Kumar H N
 email: mailme@naveenhn.in
 description: A simple blog about technology, food, travel and everything in my life.
 baseurl: "" # the subpath of your site, e.g. /blog/
-#url: "https://naveenhn.in"
-url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
+url: "https://naveenhn.in"
+#url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
 twitter_username: naveenhn
 github_username:  naveen
 
