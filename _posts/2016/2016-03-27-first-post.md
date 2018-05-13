@@ -3,7 +3,7 @@ layout: post
 title:  "First post using Jekyll!"
 published: true
 date:   2016-03-27 12:00:00
-categories: jekyll blog
+categories: blog
 tags: jekyll blog
 comments: true
 ---
