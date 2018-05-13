@@ -1,0 +1,14 @@
+<div class="pure-menu pure-menu-horizontal" style="float:right;text-align: right;">
+    <ul class="pure-menu-list">
+        <li class="pure-menu-item"><a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="pure-menu-link"><i class="fa fa-rss fa-lg" aria-hidden="true"></i></a></li>
+        <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+            <a href="#" id="menuLink1" class="pure-menu-link"><i class="fa fa-share-alt fa-lg" aria-hidden="true"></i></a>
+            <ul class="pure-menu-children" style="text-align:left;">
+                <li class="pure-menu-item"><a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="pure-menu-link"><i class="fa fa-facebook fa-fw" aria-hidden="true"></i> Facebook </a></li>
+                <li class="pure-menu-item"><a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}"  onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"  class="pure-menu-link"><i class="fa fa-twitter fa-fw" aria-hidden="true"></i> Twitter </a></li>
+                <li class="pure-menu-item"><a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title={{ page.title }}&summary={{ page.description }}&source={{ site.title }}" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="pure-menu-link"><i class="fa fa-linkedin fa-fw" aria-hidden="true"></i> Linkedin</a></li>
+                <li class="pure-menu-item"><a href="https://plus.google.com/share?url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | uri_escape}}" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="pure-menu-link"><i class="fa fa-google-plus fa-fw" aria-hidden="true"></i> Google</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>

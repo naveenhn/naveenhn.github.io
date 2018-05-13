@@ -105,9 +105,15 @@ code {
   height: inherit;
 }
 
-.button-rss {
-            background: rgb(223, 117, 20); /* this is an orange */
-        }
+.fa-rss:hover, .fa-rss:active {
+  color: orange;
+}
+
+.pagination {
+    padding-top: 1em;
+    text-align: center;
+}
+
 .button-link:hover, .button-link:active {
     border        : 1px solid #49bf9d;
     border-radius: 4px;
@@ -144,13 +150,13 @@ margin-left: 20%;
 }
 
 .social-icons i:hover{
-  color: #49bf9d;
+  color: #03a9f4;
   border-style: none;
 
 
 }
 .social-icons i:active{
-  color: #49bf9d;
+  color: #03a9f4;
   border-style: none;
 }
 .social-icons i:focus{

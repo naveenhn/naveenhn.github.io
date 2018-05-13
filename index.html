@@ -4,9 +4,11 @@ layout: default
 
 <div class="home">
 
+{% include socialshare.html %}
+
   <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-  <h2>{{post.title}}</h2>
+  <h3>{{post.title}}</h3>
   <p class="author">
     <span class="date">{{ post.date | date: '%B %d, %Y'  }}</span>
   </p>
@@ -21,7 +23,4 @@ layout: default
 <!-- Add Pagination -->
  {% include pagination.html %}
 <br />
-<br />
-  <p class="rss-subscribe"><a href="{{ "/feed.xml" | prepend: site.baseurl }}"><img alt="RSS" src="{{ "/assets/img/feed-icon-28x28.png" | prepend: site.baseurl}}"/></a></p>
-
 </div>
