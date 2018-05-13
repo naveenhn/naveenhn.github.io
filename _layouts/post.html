@@ -13,7 +13,6 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
-
 <br/>
 <div id="post-nav" class="clearfix">
   {% if page.previous.url %}
@@ -23,5 +22,7 @@ layout: default
     <a class="pure-button" style="float:right; font-size: 85%; background: rgb(66, 184, 221); color:white; " href="{{page.next.url}}">{{page.next.title}} <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
   {% endif %}
 </div>
+
+{% include comments.html %}
 
 </div>
