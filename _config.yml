@@ -31,4 +31,4 @@ plugins:   [jekyll-paginate]
 kramdown:
   input: GFM
 
-theme: jekyll-theme-minimal
+theme: jekyll-theme-slate
