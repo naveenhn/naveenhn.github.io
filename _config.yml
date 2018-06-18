@@ -8,9 +8,10 @@ url: "https://naveenhn.in"
 twitter_username: naveenhn
 github_username:  naveen
 
+
 # Build settings
 markdown: kramdown
-paginate: 3
+paginate: 5
 
 
 # Serving
