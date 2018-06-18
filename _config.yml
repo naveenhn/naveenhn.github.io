@@ -30,3 +30,5 @@ plugins:   [jekyll-paginate]
 # Markdown Processors
 kramdown:
   input: GFM
+
+theme: jekyll-theme-hacker
