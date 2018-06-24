@@ -5,6 +5,7 @@ published: true
 date:   2016-03-27 12:00:00
 categories: blog
 tags: jekyll blog
+author: Naveen
 comments: true
 ---
 My first post is about Jekyll itself. I will not go about installation and other nuances, you will find a ton of information, just Google it. However I would recommend the following sites a must for anyone starting with Jekyll.

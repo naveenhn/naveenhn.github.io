@@ -5,6 +5,7 @@ published: true
 date:   2016-04-01 12:00:00
 categories: linux fedora
 tags: fedora linux
+author: Naveen
 comments: true
 ---
 Into my 5th semester engineering is when I was introduced to Linux, more than the commands and tools, I was more interested in its installation. Red Hat Linux was the most commonly available distro at that time and installation CDs would come in a pack of 3, you had to get your partitions and boot manager configurations right to have a successful Dual boot system (nothing has changed much now as well). And I had installed it on so many of my friends systems that I would probably do it in my sleep! Linux Desktop at that time was very unwelcoming especially after working with Windows. It was meant to be used only for Unix Lab Programming etc. But I liked the idea of community based OS development and how kernel and drivers we being developed.

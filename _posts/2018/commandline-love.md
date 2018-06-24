@@ -5,7 +5,8 @@ published: true
 date:   2018-06-23 12:00:00
 categories: linux CLI
 tags: linux commandline zsh bash powerline ohmyz
-author: Naveen  
+author: Naveen
+comments: true  
 ---
 Command Line Interface [(CLI)](https://en.wikipedia.org/wiki/Command-line_interface), is something that developers have mixed feelings about, many young developers dislike it. The GUI tools from basic editors to full fledged IDE's, makes using CLI a redundant thing. A CLI lover like me feel that you get more control and flexibility with command line. The \*nix commands are an example to this.  
 
