@@ -1,6 +1,5 @@
 <div class="pure-menu pure-menu-horizontal" style="float:right;text-align: right;">
     <ul class="pure-menu-list">
-        <li class="pure-menu-item"><a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="pure-menu-link"><i class="fa fa-rss fa-lg" aria-hidden="true"></i></a></li>
         <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
             <a href="#" id="menuLink1" class="pure-menu-link"><i class="fa fa-share-alt fa-lg" aria-hidden="true"></i></a>
             <ul class="pure-menu-children" style="text-align:left;">
@@ -11,5 +10,6 @@
                 <!-- <li class="pure-menu-item"><a href="whatsapp://send?text=Check this: {{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | uri_escape}}" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="pure-menu-link"><i class="fab fa-whatsapp fa-fw" aria-hidden="true"></i> Whatsapp</a></li> -->
             </ul>
         </li>
+        <li class="pure-menu-item"><a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="pure-menu-link"><i class="fa fa-rss fa-lg" aria-hidden="true"></i></a></li>
     </ul>
 </div>
