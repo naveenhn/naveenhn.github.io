@@ -13,10 +13,12 @@ Command Line Interface [(CLI)](https://en.wikipedia.org/wiki/Command-line_interf
 As a long time Linux user @ home and a command line junkie, my current setup is as below
 1. Zsh (after switching from bash)
 2. [oh my zsh](https://ohmyz.sh/) - awesome framework to configure Zsh
-3. [Powerline](https://powerline.readthedocs.io/en/latest/#) - a statusline plugin 
+3. [Powerline](https://powerline.readthedocs.io/en/latest/#) - a statusline plugin
 4. [Gogh](http://mayccoll.github.io/Gogh/) or [Dracula](https://draculatheme.com/zsh/) for color schemes for Gnome terminal.
 
 You can customize your commandline/shell using various snippets, tricks and tools. There are a number of community driven forums like [shell-fu](http://www.shell-fu.org/), [command-line-fu](https://www.commandlinefu.com/commands/browse),[snipt](https://github.com/nicksergeant/snipt) etc. where users share their CLI tricks and snippets. If you want to get fancy and show off, you can use [screenfetch](https://github.com/KittyKatt/screenFetch) or [neofetch](https://github.com/dylanaraps/neofetch).  
+
+[![My Terminal]({{site.url}}/assets/img/2018/commandline/terminal.png)]({{site.url}}/assets/img/2018/commandline/terminal.png "My Terminal"){: data-lightbox="terminal-1" data-title="My Terminal"}
 
 For windows mostly @ office, I use utilities like [Cmder](http://cmder.net/), [Putty](https://www.putty.org/), [Cygwin](https://www.cygwin.com/)/[Babun](http://babun.github.io/) or [Git for Windows](https://gitforwindows.org/) with [oh my zsh](https://ohmyz.sh/). I mostly prefer cygwin/babun but have loved using tools like [Mobaterm](https://mobaxterm.mobatek.net/) also.
 
