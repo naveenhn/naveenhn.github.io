@@ -1,2 +1,2 @@
 # naveenhn.github.io
-A simple readme file
+A simple blog aware site : https://naveenhn.in
